@@ -1,0 +1,12 @@
+,longitude,latitude,horizontal_idx,vertical_idx,neighbors_NE,neighbors_E,neighbors_SE,neighbors_SW,neighbors_W,neighbors_NW
+0,-74.00028222773692,40.73042950308778,0,0,True,True,False,False,False,False
+1,-73.99483642244894,40.73042950308778,2,0,True,True,False,False,True,True
+2,-73.98939061716094,40.73042950308778,4,0,False,False,False,False,True,True
+3,-73.99755932509292,40.735145708811224,1,1,True,True,True,True,False,True
+4,-73.99211351980493,40.735145708811224,3,1,True,False,True,True,True,True
+5,-74.00028222773692,40.739861914534686,0,2,True,True,True,False,False,False
+6,-73.99483642244894,40.739861914534686,2,2,True,True,True,True,True,True
+7,-73.98939061716094,40.739861914534686,4,2,True,False,False,True,True,True
+8,-73.99755932509292,40.744578120258154,1,3,False,True,True,True,False,False
+9,-73.99211351980493,40.744578120258154,3,3,False,True,True,True,True,False
+10,-73.98666771451694,40.744578120258154,5,3,False,False,False,True,True,False
