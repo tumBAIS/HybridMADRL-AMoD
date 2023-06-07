@@ -4,7 +4,7 @@ This software uses a combination of multi-agent Soft Actor-Critic and weighted b
 
 This method is proposed in:
 
-> Tobias Enders, James Harrison, Marco Pavone, and Maximilian Schiffer. Hybrid Multi-agent Deep Reinforcement Learning for Autonomous Mobility on Demand Systems. arXiv preprint [arXiv:2212.07313](https://arxiv.org/abs/2212.07313), 2022.
+> Tobias Enders, James Harrison, Marco Pavone, Maximilian Schiffer (2023). Hybrid Multi-agent Deep Reinforcement Learning for Autonomous Mobility on Demand Systems. Proceedings of The 5th Annual Learning for Dynamics and Control Conference (L4DC 2023), in Proceedings of Machine Learning Research 211:1284-1296. Available from https://proceedings.mlr.press/v211/enders23a.html.
 
 All components (code, data, etc.) required to run the code for the instances considered in the paper are provided here. 
 
