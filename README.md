@@ -12,7 +12,7 @@ All components (code, data, etc.) required to run the experiments reported in th
 The directory `algorithms` contains:
 - The environment implementation in `environment.py`.
 - The greedy benchmark algorithm in `greedy.py`, which can be executed using `main_greedy.py` with arguments as the exemplary ones in `args_greedy_XX_small/large_zones.txt` (see comments in `main_greedy.py` for explanations of the arguments).
-- The remaining code files implement the hybrid multi-agent Soft Actor-Critic algorithm, which can be executed using `main.py` with arguments as the exemplary ones in `args_RL_XX_small/large_zones.txt` (see comments in `main.py` for explanations of the arguments). The code in `trainer.py` and `sac_discrete.py` is partly based on code from this [GitHub repository](https://github.com/keiohta/tf2rl)).
+- The remaining code files implement the hybrid multi-agent Soft Actor-Critic algorithm, which can be executed using `main.py` with arguments as the exemplary ones in `args_RL_XX_small/large_zones.txt` (see comments in `main.py` for explanations of the arguments). The code in `trainer.py` and `sac_discrete.py` is partly based on code from this [GitHub repository](https://github.com/keiohta/tf2rl).
 
 The directory `data` contains pre-processed data for the two problem instances considered in the paper.
 
