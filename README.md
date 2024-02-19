@@ -13,7 +13,7 @@ The directory `algorithms` contains:
 - The code (`trainer.py` and `sac_discrete.py` are partly based on code from this [GitHub repository](https://github.com/keiohta/tf2rl))
 - An argument file `args_RL_XX_small/large_zones.txt` for each problem instance (see comments in `main.py` for explanations of the arguments)
 
-The directory 'data' contains pre-processed data for the two problem instances considered in the paper.
+The directory `data` contains pre-processed data for the two problem instances considered in the paper.
 
 
 ## Code Execution
