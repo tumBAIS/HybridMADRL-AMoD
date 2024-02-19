@@ -9,12 +9,14 @@ This method is proposed in:
 All components (code, data, etc.) required to run the code for the instances considered in the paper are provided here. 
 
 ## Overview
-The directory `code and data` contains:
+The directory `algorithms` contains:
 - The code (`trainer.py` and `sac_discrete.py` are partly based on code from this [GitHub repository](https://github.com/keiohta/tf2rl))
-- Pre-processed data for the two problem instances considered in the paper
-- An argument file `args.txt` for each problem instance (see comments in `main.py` for explanations of the arguments)
+- An argument file `args_RL_XX_small/large_zones.txt` for each problem instance (see comments in `main.py` for explanations of the arguments)
+
+The directory 'data' contains pre-processed data for the two problem instances considered in the paper.
+
 
 ## Code Execution
-To run the code for an instance with data and arguments `args.txt` saved in `data_dir`, execute `python main.py @data_dir/args.txt`. 
+To run the code with arguments `args.txt`, execute `python main.py @args.txt`. 
 
 For typical instance and neural network sizes, a GPU should be used. 
