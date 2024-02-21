@@ -17,8 +17,12 @@ The directory `algorithms` contains:
 
 The directory `data` contains pre-processed data for the two problem instances considered in the paper.
 
+## Installation Instructions
+Executing the code requires Python and the Python packages in `requirements.txt`, which can be installed with `pip install -r requirements.txt`. 
+These packages include TensorFlow. In case of problems when trying to install TensorFlow, please refer to this [help page](https://www.tensorflow.org/install/errors).
+Gurobi, which is also included in `requirements.txt`, is only necessary for the MPC benchmark and can be excluded from the installation if the MPC algorithm is not needed.
 
 ## Code Execution
-To run the code with arguments `args.txt`, execute `python main.py @args.txt` (analogously for the greedy and MPC algorithms). 
+To run the code with arguments `args.txt`, execute `python main.py @args.txt` in the `algorithms` directory (analogously for the greedy and MPC algorithms). 
 
 For typical instance and neural network sizes, a GPU should be used. 
